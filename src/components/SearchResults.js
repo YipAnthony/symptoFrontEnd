@@ -108,7 +108,7 @@ export default function SearchResults(props) {
             {
                 isLoadingResults ? 
                 <div id="loadingResults">
-                    <img src={loadingLogo} alt="Loading logo"></img>
+                    <img src={process.env.PUBLIC_URL + '/loading.gif'} alt="Loading logo"></img>
                 </div>
                 : null
             }

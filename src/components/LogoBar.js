@@ -23,7 +23,7 @@ export default function LogoBar() {
     return (
         <div id="logoBar" className="d-flex">
             <span id="combinedLogo">
-                <span id="streetText">sympto-street</span>
+                <span id="streetText">Apartment finder</span>
             </span>
             <button id="mediaQueriedSearch" className="btn btn-primary btn-lg" onClick={handleSearch}>Search</button>
         </div>
